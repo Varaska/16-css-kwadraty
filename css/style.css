@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #fff;
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 10px;
+    margin-inline-start: 20px
+}
+
+.background {
+	background-color: #808080;
+	width: 290px;
+	height: 540px;
+	margin: 1px; /* Udało sie presunąć blok w lewo.  */
+	display: flex;
+	justify-content: flex-start; 
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	align-items: center;
+}
+
+.box {
+	width: 105px;
+	height: 105px;
+	margin: 5px 0;
+}
+
+.orange {
+	background-color: #fea500;
+}
+
+.gray {
+	background-color: #808080;
+}
